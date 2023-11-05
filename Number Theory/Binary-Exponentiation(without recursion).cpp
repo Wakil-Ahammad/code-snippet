@@ -1,4 +1,3 @@
-
 const int mod = 1e9+7;
 int BinExp(int a,int n){
     int res = 1;

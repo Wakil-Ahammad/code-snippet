@@ -1,4 +1,3 @@
-
 void Divisors(int n){
  vector<int>v;
  for(int i = 1;i *i <= n;i++){

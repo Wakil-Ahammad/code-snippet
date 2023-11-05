@@ -1,4 +1,3 @@
-
 const int M = 1e9+7;
 int BinExp(int a,int b){
     if(b==0)return 1;

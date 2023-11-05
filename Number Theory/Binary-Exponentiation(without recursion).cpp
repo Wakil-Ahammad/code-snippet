@@ -1,7 +1,5 @@
-#include<bits/stdc++.h>
-using namespace std;
-const int mod = 1e9+7;
 
+const int mod = 1e9+7;
 int BinExp(int a,int n){
     int res = 1;
     while(n){
@@ -11,12 +9,6 @@ int BinExp(int a,int n){
        
     }
     return res%mod;
-}
-
-int main(){
-    int a,b;
-    cin>>a>>b;
-    cout<<BinExp(a,b)<<endl;
 }
 
 

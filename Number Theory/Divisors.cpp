@@ -1,6 +1,3 @@
-#include<bits/stdc++.h>
-#define pb push_back
-using namespace std;
 
 void Divisors(int n){
  vector<int>v;
@@ -16,11 +13,4 @@ void Divisors(int n){
 
 }
 
-
-int main(){
-  int n;
-  cin>>n;
-  Divisors(n);
-
-}
 
